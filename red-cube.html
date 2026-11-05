@@ -16,19 +16,19 @@
                 <h1 class="text-3xl font-bold mb-2">Needont</h1>
                 <p class="text-2xl text-green-600 font-semibold mb-4">$3.99</p>
                 <p class="text-gray-600 mb-6">You could of course print this Needoh lookalike in TPU, but then you'd miss the fun of watching someone pick it up expecting squish and getting PLA instead.</p>
-                <div class="mt-4 p-4 bg-[#008CFF]/10 border border-[#008CFF]/20 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <!-- Notice the added "flex-wrap" on the main div, and "shrink-0 whitespace-nowrap" on the link -->
+                <div class="mt-4 p-4 bg-[#008CFF]/10 border border-[#008CFF]/20 rounded-lg flex flex-wrap sm:flex-nowrap items-center justify-between gap-4">
                     <div class="flex items-center gap-3">
-                        <!-- Venmo Logo SVG -->
                         <img src="venmo-logo.png" alt="Venmo" class="w-8 h-8 object-contain rounded-md">
                         <div>
                             <p class="text-xs text-gray-500 font-bold uppercase tracking-wider">Send Payment</p>
                             <p class="text-lg font-bold text-gray-900">@davisdixon</p>
                         </div>
                     </div>
-                    <a href="https://venmo.com/davisdixon" target="_blank" class="bg-[#008CFF] text-white py-2 px-5 rounded-lg font-bold hover:bg-blue-700 transition shadow-sm text-center">
+                    <a href="https://venmo.com/davisdixon" target="_blank" class="bg-[#008CFF] text-white py-2 px-5 rounded-lg font-bold hover:bg-blue-700 transition shadow-sm text-center shrink-0 whitespace-nowrap">
                         Open Venmo
                     </a>
-                </div>            
+                </div>           
             </div>
         </div>
     </div>
